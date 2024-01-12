@@ -1,0 +1,127 @@
+body {
+    display: flex;
+    background-color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: left;
+    height: 100%;
+    width: 99%;
+    margin: 0;
+    flex-direction: column;
+}
+.top {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 48px;
+    margin-bottom: 12px;
+}
+a {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    outline: none;
+    width: 140px;
+    margin: 8px;
+    padding-right: 6px;
+}
+a:hover {
+    text-decoration: underline;
+}
+.img {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    width: 100%;
+    height: 58px;
+}
+img {
+    display: flex;
+    align-items: center;
+    max-width: 200px;
+    max-height: 200px;
+    padding-left: 18px;
+    padding-top: 14px;
+    size: 74px;
+}
+.titulo {
+    max-width: 500px;
+    height: 23px;
+    width: 100%;
+    margin: 25px 35px;
+}
+.titulo > label {
+    color: #d93025;
+    font-size: 21px;
+    margin-left: 10px;
+    font-weight: inherit;
+    font-style: inherit;
+}
+.search {
+    display: flex;
+    flex-direction: column;
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+.texto_box {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-wrap: nowrap;
+    font-size: 13px;
+    font-weight: 100;
+    width: 182.39px;
+    min-width: 182.39px;
+    height: 42px;
+    text-decoration: none;
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    height: 27px;
+    width: 572px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.box input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    outline: none;
+    height: 25px;
+    width: 572px;
+    padding: 1px 8px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+}
+.bloco {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.submit_button {
+    display: flex;
+    justify-content: end;
+    vertical-align: center;
+    margin: 16px;
+    height: 30px;
+    width: 738px;
+}
+.submit_button button {
+    color: white;
+    font-style: inherit;
+    font-weight: bold;
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    padding: 0px 8px;
+}
